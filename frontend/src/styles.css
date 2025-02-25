@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Style the control (input box) */
+.react-select__control {
+    background-color: #fff; /* White background */
+    border-color: #ccc; /* Light grey border */
+    padding: 10px;
+    min-height: 40px;
+    border-radius: 8px;
+  }
+  
+  /* Style the dropdown menu */
+  .react-select__menu {
+    background-color: #ffffff; /* White background for the dropdown */
+    color: #333; /* Dark text color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+  }
+  
+  /* Style each option in the dropdown */
+  .react-select__option {
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text */
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Change the background when hovering over an option */
+  .react-select__option:hover {
+    background-color: #f0f0f0; /* Light grey on hover */
+  }
+  
+  /* Highlight the selected option */
+  .react-select__option--is-selected {
+    background-color: #007bff; /* Blue background when selected */
+    color: #fff; /* White text for the selected option */
+  }
+  
